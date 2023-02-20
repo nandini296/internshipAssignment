@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Index</title>
+    </head>
+    <style>
+    body{
+        width: 100%;
+        height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+        top: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    h1, h4 {
+
+        text-align: center;
+    }
+button {
+  background-color: rgba(255,255,255,.7);
+  border: none;
+  outline: none;
+  border-radius: 19px;
+  box-shadow: 3px 3px 7px black;
+  font-size: 24px;
+  display: block;
+  /* margin: 10px auto; */
+  min-height: 70px;
+  width: 100%;
+  cursor: pointer;
+}
+</style>
+    <body>
+        <!-------------- WELCOME SCREEN --------------->
+        <div class='screen' id='welcome-screen'>
+            <h1>WELCOME</h1>
+            <button class="start-btn"
+                onclick="window.location.href='./ques.html';">Start</button>
+        </div>
+    </body>
+</html>
